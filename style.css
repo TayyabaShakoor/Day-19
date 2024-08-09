@@ -1,0 +1,292 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-container {
+    margin: 30px;
+    width: 1277px;
+    height: 849px;
+    border:4px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.first-header {
+    width:1275px;
+    height: 70px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+}
+.logo {
+    margin:10px;
+  }
+  .logo img {
+    height: 50px;
+    width: 50px;
+  }
+.heading {
+    display: flex;
+    flex-direction: column;
+  }
+.p-button {
+    display: flex;
+    flex-direction: row;
+  }
+.heading h1 {
+    margin-bottom: 5px;
+  }
+.p-button p {
+    margin-right: 10px;
+  }
+.p-button button {
+    padding: 0px 5px;
+    border:1px solid green;
+    cursor: pointer;
+    background-color: green;
+    color:black;
+  }
+  .p-button button:hover {
+    border:2px solid rgb(14, 87, 4);
+    box-shadow: 0 1px 6px rgba(12, 10, 10, 0.28);
+    }
+.header-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 430px;
+  }
+.header-buttons button {
+  cursor:pointer;
+    padding: 10px;
+    margin:5px;
+    border-radius: 5px;
+    border:1px solid rgb(92, 90, 90);
+    background-color: rgb(92, 90, 90);
+}
+.header-buttons button:hover {
+  border:2px solid rgb(83, 82, 82);
+  box-shadow: 0 1px 6px rgba(12, 10, 10, 0.28);
+  }
+.f-button button {
+    background-color: rgb(92, 90, 90);
+}
+.f-button img  {
+    height:15px;
+    width:15px;
+}
+.sec-button button {
+    background-color:rgb(92, 90, 90);
+}
+.third-button button {
+    background-color: rgb(8, 153, 8);
+    border:1px solid rgb(8,153,8);
+}
+
+  .sec-header {
+    width:1267px;
+    height: 40px;
+    border:7px solid rgb(75, 74, 74);
+    background-color: rgb(87, 86, 86);
+    display: flex;
+
+  }
+  .sec-header button {
+    padding: 10px 20px;
+    background-color:rgb(124, 123, 123);
+    border:1px solid rgb(124, 123, 123);
+    cursor:pointer;
+  }
+  .sec-header button:hover {
+    border:2px solid rgb(53, 52, 52);
+    box-shadow: 0 1px 6px rgba(12, 10, 10, 0.28);
+    }
+  .last-button {
+    margin-left: 1035px;
+  }
+  .third-header {
+    width:1275px;
+    height: 50px;
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.third-header button {
+    padding: 10px;
+    margin:10px;
+    border-radius: 5px;
+    border:1px solid darkred;
+    background-color: darkred;
+    cursor:pointer;
+}
+.third-header button:hover {
+  border:2px solid rgb(87, 4, 4);
+  box-shadow: 0 1px 6px rgba(12, 10, 10, 0.28);
+  }
+.third-header p {
+    font-size: 12px;
+    margin:20px;
+    color:rgb(208, 212, 212);
+
+}
+.last-p {
+    margin-left:750px ;
+    display: flex;
+}
+.last-p p {
+    font-size: 12px;
+    margin:20px;
+    color:rgb(208, 212, 212);
+
+}
+.container {
+    height: 230px;
+    width:1239px;
+    border:1px solid black;
+    background: url('images/page-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    padding: 120px 20px; 
+   
+}
+.container p {
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+.container h1 {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.container h4 {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.buttons {
+  display: flex;
+  padding-top: 20px;
+}
+.buttons button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.buttons button:hover {
+  border:2px solid rgb(146, 11, 11);
+  box-shadow: 0 1px 6px rgba(12, 10, 10, 0.28);
+  }
+.button-one button {
+  background-color: black;
+  border:1px solid black;
+}
+.button-two button {
+  background-color: rgb(136, 8, 8);
+  border:2px solid black;
+  margin-left: 5px;
+}
+.after-container {
+  display: flex;
+  background-color: black;
+  }
+  .after-container button {
+    cursor: pointer;
+  }
+.first-movie button {
+  width:210px;
+  height: 120px;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 60px;
+  background-image:url('images/forth-button.jpeg');
+  border :1px solid black;
+  border-top: 1px solid rgb(112, 6, 6);
+  
+}
+.first-movie button:hover {
+  border:2px solid rgb(141, 7, 7);
+  box-shadow: 0 1px 6px rgba(12, 10, 10, 0.28);
+  }
+.three-movies button {
+  width:210px;
+  height: 120px;
+  font-size: 25px;
+  padding-bottom: 60px;
+  text-align: left;
+  padding-left: 10px;
+  border :1px solid black;
+  border-top: 1px solid rgb(112, 6, 6);
+  background: url('images/page-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.three-movies button:hover {
+  border:2px solid rgb(112, 5, 5);
+  box-shadow: 0 1px 6px rgba(12, 10, 10, 0.28);
+  }
+.forth-movie button {
+  width:210px;
+  height: 120px;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 60px;
+  background-image:url('images/first-button.jpeg');
+  border :1px solid black;
+  border-top: 1px solid rgb(112, 6, 6);
+}
+.forth-movie button:hover {
+  border:2px solid rgb(87, 4, 4);
+  box-shadow: 0 1px 6px rgba(12, 10, 10, 0.28);
+  }
+  .first-footer footer {
+    width:1275px;
+    height: 30px;
+    border:2px solid rgb(7, 6, 6);
+  }
+ 
+
+  .sec-footer footer {
+    width:1275px;
+    height: 25px;
+    border:2px solid rgb(27, 26, 26);
+    background-color: rgb(34, 34, 34);
+    display: flex;
+  }
+  .sec-footer button {
+    height: 20px;
+    width:50px;
+    margin-top: 3px;
+    margin-left: 5px;
+    border:1px solid rgb(107, 105, 105);
+    background-color: rgb(80, 78, 78);
+    font-size: 6px;
+    color: darkgray;
+    cursor:pointer;
+  }
+  .sec-footer button:hover {
+    border:2px solid rgb(65, 63, 63);
+    box-shadow: 0 1px 6px rgba(12, 10, 10, 0.28);
+    }
+  .mid-buttons {
+    margin-left: 500px;
+  }
+  .end-button {
+    margin-left: 545px;
+  }
+  .third-footer footer {
+    width:1275px;
+    height: 10px;
+    border:3px solid rgb(56, 56, 56);
+    background-color:  rgb(94, 93, 93);
+  }
+
+
+
+  
